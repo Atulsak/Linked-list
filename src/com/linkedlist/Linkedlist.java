@@ -31,6 +31,8 @@ public class Linkedlist {
 	        obj.addFirst("70");
 	        obj.addFirst("30");
 	        obj.addFirst("56");
+	     
+	        
 	        
 	    }
 
