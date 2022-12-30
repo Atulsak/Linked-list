@@ -4,10 +4,10 @@ import java.util.LinkedList;
 
 public class Linkedlist {
 	
-	    Node head;
+	 Node head;
 	    class Node {
-	        String data; // initialising data in first location
-	        Node next;   // initialising next in node class
+	        String data; 
+	        Node next;   
 
 	        Node(String data){
 	            this.data = data;
@@ -16,8 +16,8 @@ public class Linkedlist {
 	    }
 	    //Adding the data in first position
 	    public void addFirst(String data){
-	        Node newNode = new Node(data); // Making object of node class
-	        if(head == null){              // Checking if linked list is empty
+	        Node newNode = new Node(data); 
+	        if(head == null){              
 	            head = newNode;
 	            return;
 	        }
@@ -31,9 +31,7 @@ public class Linkedlist {
 	        obj.addFirst("70");
 	        obj.addFirst("30");
 	        obj.addFirst("56");
-	     
-	        
-	        
-	    }
+
 
 	}
+}
